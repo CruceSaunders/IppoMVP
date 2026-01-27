@@ -6,14 +6,140 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ED6BAE852F207E300013C16D /* IppoMVP Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ED6BAE7B2F207E2F0013C16D /* IppoMVP Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED6BAED32F2080390013C16D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED6BAED12F2080380013C16D /* README.md */; };
+		ED6BAED42F2080390013C16D /* project_setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = ED6BAED02F2080380013C16D /* project_setup.sh */; };
+		ED6BAED52F2080390013C16D /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEAA2F2080380013C16D /* AppColors.swift */; };
+		ED6BAED62F2080390013C16D /* RewardTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE932F2080380013C16D /* RewardTypes.swift */; };
+		ED6BAED72F2080390013C16D /* PlayerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE922F2080380013C16D /* PlayerTypes.swift */; };
+		ED6BAED82F2080390013C16D /* PetConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE8C2F2080380013C16D /* PetConfig.swift */; };
+		ED6BAED92F2080390013C16D /* RewardsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE8D2F2080380013C16D /* RewardsConfig.swift */; };
+		ED6BAEDA2F2080390013C16D /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEB22F2080380013C16D /* ShopView.swift */; };
+		ED6BAEDB2F2080390013C16D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEB12F2080380013C16D /* ProfileView.swift */; };
+		ED6BAEDC2F2080390013C16D /* RewardsSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEA72F2080380013C16D /* RewardsSystem.swift */; };
+		ED6BAEDD2F2080390013C16D /* AppTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEAC2F2080380013C16D /* AppTypography.swift */; };
+		ED6BAEDE2F2080390013C16D /* WatchPetCatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEC82F2080380013C16D /* WatchPetCatchView.swift */; };
+		ED6BAEDF2F2080390013C16D /* WatchConnectivityServiceWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEC32F2080380013C16D /* WatchConnectivityServiceWatch.swift */; };
+		ED6BAEE02F2080390013C16D /* EncounterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE9A2F2080380013C16D /* EncounterManager.swift */; };
+		ED6BAEE12F2080390013C16D /* WatchSprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAECA2F2080380013C16D /* WatchSprintView.swift */; };
+		ED6BAEE22F2080390013C16D /* WatchSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAECC2F2080380013C16D /* WatchSummaryView.swift */; };
+		ED6BAEE32F2080390013C16D /* EncounterConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE8B2F2080380013C16D /* EncounterConfig.swift */; };
+		ED6BAEE42F2080390013C16D /* WatchConnectivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEA22F2080380013C16D /* WatchConnectivityService.swift */; };
+		ED6BAEE52F2080390013C16D /* AbilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEAE2F2080380013C16D /* AbilitiesView.swift */; };
+		ED6BAEE62F2080390013C16D /* PetSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEA62F2080380013C16D /* PetSystem.swift */; };
+		ED6BAEE72F2080390013C16D /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEB52F2080380013C16D /* HapticsManager.swift */; };
+		ED6BAEE82F2080390013C16D /* GameDataWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEBC2F2080380013C16D /* GameDataWatch.swift */; };
+		ED6BAEE92F2080390013C16D /* SprintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE8E2F2080380013C16D /* SprintConfig.swift */; };
+		ED6BAEEA2F2080390013C16D /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEC72F2080380013C16D /* WatchContentView.swift */; };
+		ED6BAEEB2F2080390013C16D /* SprintValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE9E2F2080380013C16D /* SprintValidator.swift */; };
+		ED6BAEEC2F2080390013C16D /* SprintTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE942F2080380013C16D /* SprintTypes.swift */; };
+		ED6BAEED2F2080390013C16D /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE972F2080380013C16D /* GameData.swift */; };
+		ED6BAEEE2F2080390013C16D /* WatchStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAECB2F2080380013C16D /* WatchStartView.swift */; };
+		ED6BAEEF2F2080390013C16D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE982F2080380013C16D /* UserData.swift */; };
+		ED6BAEF02F2080390013C16D /* PetTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE912F2080380013C16D /* PetTypes.swift */; };
+		ED6BAEF12F2080390013C16D /* IppoMVPWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAECE2F2080380013C16D /* IppoMVPWatchApp.swift */; };
+		ED6BAEF22F2080390013C16D /* SprintEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE9D2F2080380013C16D /* SprintEngine.swift */; };
+		ED6BAEF32F2080390013C16D /* WatchRunningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEC92F2080380013C16D /* WatchRunningView.swift */; };
+		ED6BAEF42F2080390013C16D /* WatchRunManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEC12F2080380013C16D /* WatchRunManager.swift */; };
+		ED6BAEF52F2080390013C16D /* WatchHapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEC52F2080380013C16D /* WatchHapticsManager.swift */; };
+		ED6BAEF62F2080390013C16D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEAF2F2080380013C16D /* HomeView.swift */; };
+		ED6BAEF72F2080390013C16D /* TelemetryLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEB62F2080380013C16D /* TelemetryLogger.swift */; };
+		ED6BAEF82F2080390013C16D /* IppoMVPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEB92F2080380013C16D /* IppoMVPApp.swift */; };
+		ED6BAEF92F2080390013C16D /* LootBoxSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEA52F2080380013C16D /* LootBoxSystem.swift */; };
+		ED6BAEFA2F2080390013C16D /* AbilityTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE902F2080380013C16D /* AbilityTypes.swift */; };
+		ED6BAEFB2F2080390013C16D /* AbilityConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAE8A2F2080380013C16D /* AbilityConfig.swift */; };
+		ED6BAEFC2F2080390013C16D /* AppSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEAB2F2080380013C16D /* AppSpacing.swift */; };
+		ED6BAEFD2F2080390013C16D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEB82F2080380013C16D /* ContentView.swift */; };
+		ED6BAEFE2F2080390013C16D /* DataPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEA12F2080380013C16D /* DataPersistence.swift */; };
+		ED6BAEFF2F2080390013C16D /* PetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEB02F2080380013C16D /* PetsView.swift */; };
+		ED6BAF002F2080390013C16D /* AbilityTreeSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6BAEA42F2080380013C16D /* AbilityTreeSystem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6BAE832F207E300013C16D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6BAE612F207C430013C16D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6BAE7A2F207E2F0013C16D;
+			remoteInfo = "IppoMVP Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED6BAE892F207E300013C16D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ED6BAE852F207E300013C16D /* IppoMVP Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		ED6BAE692F207C440013C16D /* IppoMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IppoMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6BAE7B2F207E2F0013C16D /* IppoMVP Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IppoMVP Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6BAE8A2F2080380013C16D /* AbilityConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityConfig.swift; sourceTree = "<group>"; };
+		ED6BAE8B2F2080380013C16D /* EncounterConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncounterConfig.swift; sourceTree = "<group>"; };
+		ED6BAE8C2F2080380013C16D /* PetConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetConfig.swift; sourceTree = "<group>"; };
+		ED6BAE8D2F2080380013C16D /* RewardsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsConfig.swift; sourceTree = "<group>"; };
+		ED6BAE8E2F2080380013C16D /* SprintConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintConfig.swift; sourceTree = "<group>"; };
+		ED6BAE902F2080380013C16D /* AbilityTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityTypes.swift; sourceTree = "<group>"; };
+		ED6BAE912F2080380013C16D /* PetTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTypes.swift; sourceTree = "<group>"; };
+		ED6BAE922F2080380013C16D /* PlayerTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTypes.swift; sourceTree = "<group>"; };
+		ED6BAE932F2080380013C16D /* RewardTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTypes.swift; sourceTree = "<group>"; };
+		ED6BAE942F2080380013C16D /* SprintTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintTypes.swift; sourceTree = "<group>"; };
+		ED6BAE972F2080380013C16D /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		ED6BAE982F2080380013C16D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		ED6BAE9A2F2080380013C16D /* EncounterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncounterManager.swift; sourceTree = "<group>"; };
+		ED6BAE9D2F2080380013C16D /* SprintEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintEngine.swift; sourceTree = "<group>"; };
+		ED6BAE9E2F2080380013C16D /* SprintValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintValidator.swift; sourceTree = "<group>"; };
+		ED6BAEA12F2080380013C16D /* DataPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistence.swift; sourceTree = "<group>"; };
+		ED6BAEA22F2080380013C16D /* WatchConnectivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityService.swift; sourceTree = "<group>"; };
+		ED6BAEA42F2080380013C16D /* AbilityTreeSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityTreeSystem.swift; sourceTree = "<group>"; };
+		ED6BAEA52F2080380013C16D /* LootBoxSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootBoxSystem.swift; sourceTree = "<group>"; };
+		ED6BAEA62F2080380013C16D /* PetSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSystem.swift; sourceTree = "<group>"; };
+		ED6BAEA72F2080380013C16D /* RewardsSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsSystem.swift; sourceTree = "<group>"; };
+		ED6BAEAA2F2080380013C16D /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		ED6BAEAB2F2080380013C16D /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSpacing.swift; sourceTree = "<group>"; };
+		ED6BAEAC2F2080380013C16D /* AppTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTypography.swift; sourceTree = "<group>"; };
+		ED6BAEAE2F2080380013C16D /* AbilitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilitiesView.swift; sourceTree = "<group>"; };
+		ED6BAEAF2F2080380013C16D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED6BAEB02F2080380013C16D /* PetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsView.swift; sourceTree = "<group>"; };
+		ED6BAEB12F2080380013C16D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ED6BAEB22F2080380013C16D /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		ED6BAEB52F2080380013C16D /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		ED6BAEB62F2080380013C16D /* TelemetryLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryLogger.swift; sourceTree = "<group>"; };
+		ED6BAEB82F2080380013C16D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED6BAEB92F2080380013C16D /* IppoMVPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IppoMVPApp.swift; sourceTree = "<group>"; };
+		ED6BAEBC2F2080380013C16D /* GameDataWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataWatch.swift; sourceTree = "<group>"; };
+		ED6BAEC12F2080380013C16D /* WatchRunManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRunManager.swift; sourceTree = "<group>"; };
+		ED6BAEC32F2080380013C16D /* WatchConnectivityServiceWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityServiceWatch.swift; sourceTree = "<group>"; };
+		ED6BAEC52F2080380013C16D /* WatchHapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHapticsManager.swift; sourceTree = "<group>"; };
+		ED6BAEC72F2080380013C16D /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		ED6BAEC82F2080380013C16D /* WatchPetCatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPetCatchView.swift; sourceTree = "<group>"; };
+		ED6BAEC92F2080380013C16D /* WatchRunningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRunningView.swift; sourceTree = "<group>"; };
+		ED6BAECA2F2080380013C16D /* WatchSprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSprintView.swift; sourceTree = "<group>"; };
+		ED6BAECB2F2080380013C16D /* WatchStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchStartView.swift; sourceTree = "<group>"; };
+		ED6BAECC2F2080380013C16D /* WatchSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSummaryView.swift; sourceTree = "<group>"; };
+		ED6BAECE2F2080380013C16D /* IppoMVPWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IppoMVPWatchApp.swift; sourceTree = "<group>"; };
+		ED6BAED02F2080380013C16D /* project_setup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = project_setup.sh; sourceTree = "<group>"; };
+		ED6BAED12F2080380013C16D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		ED6BAE6B2F207C440013C16D /* IppoMVP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = IppoMVP;
+			sourceTree = "<group>";
+		};
+		ED6BAE7C2F207E2F0013C16D /* IppoMVP Watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "IppoMVP Watch Watch App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +152,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED6BAE782F207E2F0013C16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		ED6BAE602F207C430013C16D = {
 			isa = PBXGroup;
 			children = (
+				ED6BAED22F2080380013C16D /* IppoMVP 2 */,
 				ED6BAE6B2F207C440013C16D /* IppoMVP */,
+				ED6BAE7C2F207E2F0013C16D /* IppoMVP Watch Watch App */,
 				ED6BAE6A2F207C440013C16D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,8 +176,270 @@
 			isa = PBXGroup;
 			children = (
 				ED6BAE692F207C440013C16D /* IppoMVP.app */,
+				ED6BAE7B2F207E2F0013C16D /* IppoMVP Watch Watch App.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6BAE8F2F2080380013C16D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAE8A2F2080380013C16D /* AbilityConfig.swift */,
+				ED6BAE8B2F2080380013C16D /* EncounterConfig.swift */,
+				ED6BAE8C2F2080380013C16D /* PetConfig.swift */,
+				ED6BAE8D2F2080380013C16D /* RewardsConfig.swift */,
+				ED6BAE8E2F2080380013C16D /* SprintConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		ED6BAE952F2080380013C16D /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAE902F2080380013C16D /* AbilityTypes.swift */,
+				ED6BAE912F2080380013C16D /* PetTypes.swift */,
+				ED6BAE922F2080380013C16D /* PlayerTypes.swift */,
+				ED6BAE932F2080380013C16D /* RewardTypes.swift */,
+				ED6BAE942F2080380013C16D /* SprintTypes.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		ED6BAE962F2080380013C16D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAE952F2080380013C16D /* Types */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ED6BAE992F2080380013C16D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAE972F2080380013C16D /* GameData.swift */,
+				ED6BAE982F2080380013C16D /* UserData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ED6BAE9B2F2080380013C16D /* Encounter */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAE9A2F2080380013C16D /* EncounterManager.swift */,
+			);
+			path = Encounter;
+			sourceTree = "<group>";
+		};
+		ED6BAE9C2F2080380013C16D /* RunSession */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RunSession;
+			sourceTree = "<group>";
+		};
+		ED6BAE9F2F2080380013C16D /* Sprint */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAE9D2F2080380013C16D /* SprintEngine.swift */,
+				ED6BAE9E2F2080380013C16D /* SprintValidator.swift */,
+			);
+			path = Sprint;
+			sourceTree = "<group>";
+		};
+		ED6BAEA02F2080380013C16D /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAE9B2F2080380013C16D /* Encounter */,
+				ED6BAE9C2F2080380013C16D /* RunSession */,
+				ED6BAE9F2F2080380013C16D /* Sprint */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		ED6BAEA32F2080380013C16D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEA12F2080380013C16D /* DataPersistence.swift */,
+				ED6BAEA22F2080380013C16D /* WatchConnectivityService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ED6BAEA82F2080380013C16D /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEA42F2080380013C16D /* AbilityTreeSystem.swift */,
+				ED6BAEA52F2080380013C16D /* LootBoxSystem.swift */,
+				ED6BAEA62F2080380013C16D /* PetSystem.swift */,
+				ED6BAEA72F2080380013C16D /* RewardsSystem.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		ED6BAEA92F2080380013C16D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ED6BAEAD2F2080380013C16D /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEAA2F2080380013C16D /* AppColors.swift */,
+				ED6BAEAB2F2080380013C16D /* AppSpacing.swift */,
+				ED6BAEAC2F2080380013C16D /* AppTypography.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		ED6BAEB32F2080380013C16D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEAE2F2080380013C16D /* AbilitiesView.swift */,
+				ED6BAEAF2F2080380013C16D /* HomeView.swift */,
+				ED6BAEB02F2080380013C16D /* PetsView.swift */,
+				ED6BAEB12F2080380013C16D /* ProfileView.swift */,
+				ED6BAEB22F2080380013C16D /* ShopView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED6BAEB42F2080380013C16D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEA92F2080380013C16D /* Components */,
+				ED6BAEAD2F2080380013C16D /* Design */,
+				ED6BAEB32F2080380013C16D /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		ED6BAEB72F2080380013C16D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEB52F2080380013C16D /* HapticsManager.swift */,
+				ED6BAEB62F2080380013C16D /* TelemetryLogger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ED6BAEBA2F2080380013C16D /* IppoMVP */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAE8F2F2080380013C16D /* Config */,
+				ED6BAE962F2080380013C16D /* Core */,
+				ED6BAE992F2080380013C16D /* Data */,
+				ED6BAEA02F2080380013C16D /* Engine */,
+				ED6BAEA32F2080380013C16D /* Services */,
+				ED6BAEA82F2080380013C16D /* Systems */,
+				ED6BAEB42F2080380013C16D /* UI */,
+				ED6BAEB72F2080380013C16D /* Utils */,
+				ED6BAEB82F2080380013C16D /* ContentView.swift */,
+				ED6BAEB92F2080380013C16D /* IppoMVPApp.swift */,
+			);
+			path = IppoMVP;
+			sourceTree = "<group>";
+		};
+		ED6BAEBB2F2080380013C16D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		ED6BAEBD2F2080380013C16D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEBC2F2080380013C16D /* GameDataWatch.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ED6BAEBE2F2080380013C16D /* Encounter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Encounter;
+			sourceTree = "<group>";
+		};
+		ED6BAEBF2F2080380013C16D /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		ED6BAEC02F2080380013C16D /* Sprint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sprint;
+			sourceTree = "<group>";
+		};
+		ED6BAEC22F2080380013C16D /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEBE2F2080380013C16D /* Encounter */,
+				ED6BAEBF2F2080380013C16D /* Sensors */,
+				ED6BAEC02F2080380013C16D /* Sprint */,
+				ED6BAEC12F2080380013C16D /* WatchRunManager.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		ED6BAEC42F2080380013C16D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEC32F2080380013C16D /* WatchConnectivityServiceWatch.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ED6BAEC62F2080380013C16D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEC52F2080380013C16D /* WatchHapticsManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ED6BAECD2F2080380013C16D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEC72F2080380013C16D /* WatchContentView.swift */,
+				ED6BAEC82F2080380013C16D /* WatchPetCatchView.swift */,
+				ED6BAEC92F2080380013C16D /* WatchRunningView.swift */,
+				ED6BAECA2F2080380013C16D /* WatchSprintView.swift */,
+				ED6BAECB2F2080380013C16D /* WatchStartView.swift */,
+				ED6BAECC2F2080380013C16D /* WatchSummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED6BAECF2F2080380013C16D /* IppoMVPWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEBB2F2080380013C16D /* Config */,
+				ED6BAEBD2F2080380013C16D /* Data */,
+				ED6BAEC22F2080380013C16D /* Engine */,
+				ED6BAEC42F2080380013C16D /* Services */,
+				ED6BAEC62F2080380013C16D /* Utils */,
+				ED6BAECD2F2080380013C16D /* Views */,
+				ED6BAECE2F2080380013C16D /* IppoMVPWatchApp.swift */,
+			);
+			path = "IppoMVPWatch Watch App";
+			sourceTree = "<group>";
+		};
+		ED6BAED22F2080380013C16D /* IppoMVP 2 */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BAEBA2F2080380013C16D /* IppoMVP */,
+				ED6BAECF2F2080380013C16D /* IppoMVPWatch Watch App */,
+				ED6BAED02F2080380013C16D /* project_setup.sh */,
+				ED6BAED12F2080380013C16D /* README.md */,
+			);
+			path = "IppoMVP 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,10 +452,12 @@
 				ED6BAE652F207C440013C16D /* Sources */,
 				ED6BAE662F207C440013C16D /* Frameworks */,
 				ED6BAE672F207C440013C16D /* Resources */,
+				ED6BAE892F207E300013C16D /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ED6BAE842F207E300013C16D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				ED6BAE6B2F207C440013C16D /* IppoMVP */,
@@ -68,6 +467,28 @@
 			);
 			productName = IppoMVP;
 			productReference = ED6BAE692F207C440013C16D /* IppoMVP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6BAE7A2F207E2F0013C16D /* IppoMVP Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6BAE862F207E300013C16D /* Build configuration list for PBXNativeTarget "IppoMVP Watch Watch App" */;
+			buildPhases = (
+				ED6BAE772F207E2F0013C16D /* Sources */,
+				ED6BAE782F207E2F0013C16D /* Frameworks */,
+				ED6BAE792F207E2F0013C16D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ED6BAE7C2F207E2F0013C16D /* IppoMVP Watch Watch App */,
+			);
+			name = "IppoMVP Watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "IppoMVP Watch Watch App";
+			productReference = ED6BAE7B2F207E2F0013C16D /* IppoMVP Watch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -81,6 +502,9 @@
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					ED6BAE682F207C440013C16D = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					ED6BAE7A2F207E2F0013C16D = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
@@ -100,12 +524,22 @@
 			projectRoot = "";
 			targets = (
 				ED6BAE682F207C440013C16D /* IppoMVP */,
+				ED6BAE7A2F207E2F0013C16D /* IppoMVP Watch Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ED6BAE672F207C440013C16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6BAED32F2080390013C16D /* README.md in Resources */,
+				ED6BAED42F2080390013C16D /* project_setup.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6BAE792F207E2F0013C16D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,10 +553,69 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6BAED52F2080390013C16D /* AppColors.swift in Sources */,
+				ED6BAED62F2080390013C16D /* RewardTypes.swift in Sources */,
+				ED6BAED72F2080390013C16D /* PlayerTypes.swift in Sources */,
+				ED6BAED82F2080390013C16D /* PetConfig.swift in Sources */,
+				ED6BAED92F2080390013C16D /* RewardsConfig.swift in Sources */,
+				ED6BAEDA2F2080390013C16D /* ShopView.swift in Sources */,
+				ED6BAEDB2F2080390013C16D /* ProfileView.swift in Sources */,
+				ED6BAEDC2F2080390013C16D /* RewardsSystem.swift in Sources */,
+				ED6BAEDD2F2080390013C16D /* AppTypography.swift in Sources */,
+				ED6BAEDE2F2080390013C16D /* WatchPetCatchView.swift in Sources */,
+				ED6BAEDF2F2080390013C16D /* WatchConnectivityServiceWatch.swift in Sources */,
+				ED6BAEE02F2080390013C16D /* EncounterManager.swift in Sources */,
+				ED6BAEE12F2080390013C16D /* WatchSprintView.swift in Sources */,
+				ED6BAEE22F2080390013C16D /* WatchSummaryView.swift in Sources */,
+				ED6BAEE32F2080390013C16D /* EncounterConfig.swift in Sources */,
+				ED6BAEE42F2080390013C16D /* WatchConnectivityService.swift in Sources */,
+				ED6BAEE52F2080390013C16D /* AbilitiesView.swift in Sources */,
+				ED6BAEE62F2080390013C16D /* PetSystem.swift in Sources */,
+				ED6BAEE72F2080390013C16D /* HapticsManager.swift in Sources */,
+				ED6BAEE82F2080390013C16D /* GameDataWatch.swift in Sources */,
+				ED6BAEE92F2080390013C16D /* SprintConfig.swift in Sources */,
+				ED6BAEEA2F2080390013C16D /* WatchContentView.swift in Sources */,
+				ED6BAEEB2F2080390013C16D /* SprintValidator.swift in Sources */,
+				ED6BAEEC2F2080390013C16D /* SprintTypes.swift in Sources */,
+				ED6BAEED2F2080390013C16D /* GameData.swift in Sources */,
+				ED6BAEEE2F2080390013C16D /* WatchStartView.swift in Sources */,
+				ED6BAEEF2F2080390013C16D /* UserData.swift in Sources */,
+				ED6BAEF02F2080390013C16D /* PetTypes.swift in Sources */,
+				ED6BAEF12F2080390013C16D /* IppoMVPWatchApp.swift in Sources */,
+				ED6BAEF22F2080390013C16D /* SprintEngine.swift in Sources */,
+				ED6BAEF32F2080390013C16D /* WatchRunningView.swift in Sources */,
+				ED6BAEF42F2080390013C16D /* WatchRunManager.swift in Sources */,
+				ED6BAEF52F2080390013C16D /* WatchHapticsManager.swift in Sources */,
+				ED6BAEF62F2080390013C16D /* HomeView.swift in Sources */,
+				ED6BAEF72F2080390013C16D /* TelemetryLogger.swift in Sources */,
+				ED6BAEF82F2080390013C16D /* IppoMVPApp.swift in Sources */,
+				ED6BAEF92F2080390013C16D /* LootBoxSystem.swift in Sources */,
+				ED6BAEFA2F2080390013C16D /* AbilityTypes.swift in Sources */,
+				ED6BAEFB2F2080390013C16D /* AbilityConfig.swift in Sources */,
+				ED6BAEFC2F2080390013C16D /* AppSpacing.swift in Sources */,
+				ED6BAEFD2F2080390013C16D /* ContentView.swift in Sources */,
+				ED6BAEFE2F2080390013C16D /* DataPersistence.swift in Sources */,
+				ED6BAEFF2F2080390013C16D /* PetsView.swift in Sources */,
+				ED6BAF002F2080390013C16D /* AbilityTreeSystem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6BAE772F207E2F0013C16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6BAE842F207E300013C16D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6BAE7A2F207E2F0013C16D /* IppoMVP Watch Watch App */;
+			targetProxy = ED6BAE832F207E300013C16D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ED6BAE722F207C450013C16D /* Debug */ = {
@@ -249,10 +742,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IppoMVP/IppoMVP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2S75WFR39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Ippo needs to read your heart rate during runs.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Ippo saves your workout data to track your progress.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,10 +777,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IppoMVP/IppoMVP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2S75WFR39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Ippo needs to read your heart rate during runs.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Ippo saves your workout data to track your progress.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,6 +807,78 @@
 			};
 			name = Release;
 		};
+		ED6BAE872F207E300013C16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "IppoMVP Watch Watch App/IppoMVP Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2S75WFR39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "IppoMVP Watch";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Ippo needs to read your heart rate during runs.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Ippo saves your workout data to track your progress.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cruce.IppoMVP;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cruce.IppoMVP.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		ED6BAE882F207E300013C16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "IppoMVP Watch Watch App/IppoMVP Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W2S75WFR39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "IppoMVP Watch";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Ippo needs to read your heart rate during runs.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Ippo saves your workout data to track your progress.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.cruce.IppoMVP;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cruce.IppoMVP.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +896,15 @@
 			buildConfigurations = (
 				ED6BAE752F207C450013C16D /* Debug */,
 				ED6BAE762F207C450013C16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6BAE862F207E300013C16D /* Build configuration list for PBXNativeTarget "IppoMVP Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6BAE872F207E300013C16D /* Debug */,
+				ED6BAE882F207E300013C16D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
