@@ -12,15 +12,15 @@ struct ContentView: View {
                 }
                 .tag(0)
             
-            PetsView()
+            AIChatView()
                 .tabItem {
-                    Label("Pets", systemImage: "pawprint.fill")
+                    Label("AI", systemImage: "brain.head.profile")
                 }
                 .tag(1)
             
-            AbilitiesView()
+            PetsView()
                 .tabItem {
-                    Label("Abilities", systemImage: "bolt.fill")
+                    Label("Pets", systemImage: "pawprint.fill")
                 }
                 .tag(2)
             
