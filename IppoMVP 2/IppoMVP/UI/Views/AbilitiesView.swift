@@ -185,44 +185,45 @@ struct AbilitiesView: View {
         let isUnlocked = userData.abilities.unlockedPlayerAbilities.contains(node.id)
         let canUnlock = AbilityTreeSystem.shared.canUnlockAbility(node.id).canUnlock
         
-        return Button {
-            selectedNode = node
-        } label: {
-            VStack(spacing: AppSpacing.xxs) {
-                ZStack {
-                    Circle()
-                        .fill(isUnlocked ? AppColors.brandPrimary : 
-                              canUnlock ? AppColors.surface : AppColors.surfaceElevated)
-                        .frame(width: 50, height: 50)
-                    
-                    if isUnlocked {
-                        Circle()
-                            .stroke(AppColors.brandPrimary, lineWidth: 3)
-                            .frame(width: 56, height: 56)
-                    } else if canUnlock {
-                        Circle()
-                            .stroke(AppColors.brandPrimary.opacity(0.5), lineWidth: 2)
-                            .frame(width: 56, height: 56)
-                    }
-                    
-                    Image(systemName: node.iconName)
-                        .font(.title3)
-                        .foregroundColor(isUnlocked ? AppColors.background : 
-                                        canUnlock ? AppColors.brandPrimary : AppColors.textTertiary)
-                }
-                
-                Text(node.name)
-                    .font(AppTypography.caption2)
-                    .foregroundColor(isUnlocked ? AppColors.textPrimary : AppColors.textSecondary)
-                    .lineLimit(1)
-                    .frame(width: 70)
+        // Use plain view with onTapGesture instead of Button to allow pinch gestures to pass through
+        return VStack(spacing: AppSpacing.xxs) {
+            ZStack {
+                Circle()
+                    .fill(isUnlocked ? AppColors.brandPrimary : 
+                          canUnlock ? AppColors.surface : AppColors.surfaceElevated)
+                    .frame(width: 50, height: 50)
                 
                 if isUnlocked {
-                    Image(systemName: "checkmark.circle.fill")
-                        .font(.caption2)
-                        .foregroundColor(AppColors.success)
+                    Circle()
+                        .stroke(AppColors.brandPrimary, lineWidth: 3)
+                        .frame(width: 56, height: 56)
+                } else if canUnlock {
+                    Circle()
+                        .stroke(AppColors.brandPrimary.opacity(0.5), lineWidth: 2)
+                        .frame(width: 56, height: 56)
                 }
+                
+                Image(systemName: node.iconName)
+                    .font(.title3)
+                    .foregroundColor(isUnlocked ? AppColors.background : 
+                                    canUnlock ? AppColors.brandPrimary : AppColors.textTertiary)
             }
+            
+            Text(node.name)
+                .font(AppTypography.caption2)
+                .foregroundColor(isUnlocked ? AppColors.textPrimary : AppColors.textSecondary)
+                .lineLimit(1)
+                .frame(width: 70)
+            
+            if isUnlocked {
+                Image(systemName: "checkmark.circle.fill")
+                    .font(.caption2)
+                    .foregroundColor(AppColors.success)
+            }
+        }
+        .contentShape(Rectangle())
+        .onTapGesture {
+            selectedNode = node
         }
         .position(
             x: node.treeX * size.width,

@@ -12,7 +12,15 @@ struct ContentView: View {
                 }
                 .tag(0)
             
-            AIChatView()
+            // TODO: Add AIChatView.swift to Xcode project
+            // AIChatView()
+            //     .tabItem {
+            //         Label("AI", systemImage: "brain.head.profile")
+            //     }
+            //     .tag(1)
+            
+            // Placeholder for AI tab
+            Text("AI Chat Coming Soon")
                 .tabItem {
                     Label("AI", systemImage: "brain.head.profile")
                 }
